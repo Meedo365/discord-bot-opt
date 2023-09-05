@@ -1,5 +1,10 @@
+const { Client, Intents,GatewayIntentBits } = require('discord.js');
+
+
+const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+
 const Discord = require('discord.js');
-const client = new Discord.Client();
+// const client = new Discord.Client();
 
 const prefix = '!'; // Customize your bot's command prefix
 
@@ -75,5 +80,5 @@ function getCurrentTime() {
   
 
 
-const token = ec25a3afa0c4623e9990379747c2c80b3f07d3310fad824e0b5ebfca2338468c; // Replace with your bot's token
+const token = "MTE0ODM1NjY3NzEyOTc0ODUwMA.G-ZQ3j.hhFfU4XRQBWH6QLk2XYP0YQ6yqV4mRSmJZCbE4"; // Replace with your bot's token
 client.login(token);
