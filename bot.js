@@ -5,7 +5,7 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 const Discord = require("discord.js");
 // const client = new Discord.Client();
-console.log(process.env.bot_token)
+// console.log(process.env.bot_token)
 const prefix = "!"; // Customize your bot's command prefix
 
 client.on("ready", () => {
